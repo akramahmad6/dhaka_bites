@@ -50,16 +50,18 @@ contactForm.addEventListener('submit', async (event) => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(contact),
     });
-    const result = await response.json();
+    const result = await response.json().catch(() => ({}));
 
     if (!response.ok) {
-      throw new Error(result.message || 'Message pathano jayni. Pore abar chesta koro.');
+      showStatus(result.message || 'Message pathano jayni. Pore abar chesta koro.', 'err');
+      return;
     }
 
     showStatus('Message pathano hoyeche. Dhonnobad!', 'ok');
     contactForm.reset();
-  } catch (error) {
-    showStatus(error.message || 'Message pathano jayni. Pore abar chesta koro.', 'err');
+  } catch {
+    // Network failures have no server message, so use a helpful generic message.
+    showStatus('Message pathano jayni. Pore abar chesta koro.', 'err');
   } finally {
     // Re-enable the button even when the network or server reports an error.
     submitButton.disabled = false;
