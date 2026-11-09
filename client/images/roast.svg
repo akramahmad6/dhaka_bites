@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ecd7bb"/><ellipse cx="400" cy="265" rx="250" ry="180" fill="#fff8f0"/>
+  <path d="M280 292c-40-62 4-151 92-158 39-3 72 17 99 6 46-19 100 17 102 66 2 52-37 113-95 126-78 18-158 25-198-40z" fill="#a84f25"/>
+  <path d="M340 197c25-25 60-29 88-13M420 300c28-17 58-17 85-3" fill="none" stroke="#e8a34e" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="290" cy="345" r="19" fill="#728c3d"/><circle cx="515" cy="340" r="15" fill="#728c3d"/><circle cx="540" cy="178" r="13" fill="#728c3d"/>
+  <text x="400" y="465" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">CHICKEN ROAST</text>
+</svg>

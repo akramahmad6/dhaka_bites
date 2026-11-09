@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f3d9b1"/>
+  <circle cx="400" cy="260" r="205" fill="#fff8f0"/>
+  <circle cx="400" cy="260" r="174" fill="#c98735"/>
+  <path d="M265 220c44-40 73-25 100 8s47 39 85 8 68-31 94 0M260 290c35-30 70-22 98 11s57 31 91 0 68-24 96 5" fill="none" stroke="#f8e6a8" stroke-width="20" stroke-linecap="round"/>
+  <g fill="#8a3c26"><ellipse cx="350" cy="180" rx="38" ry="24"/><ellipse cx="470" cy="320" rx="44" ry="27"/><ellipse cx="520" cy="220" rx="30" ry="21"/></g>
+  <g fill="#557b35"><circle cx="310" cy="310" r="10"/><circle cx="455" cy="175" r="8"/><circle cx="375" cy="340" r="7"/></g>
+  <text x="400" y="465" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">KACCHI BIRYANI</text>
+</svg>

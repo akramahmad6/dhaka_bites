@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0d7b4"/><ellipse cx="400" cy="390" rx="260" ry="28" fill="#d3b48e"/>
+  <path d="M205 245c0-100 87-162 195-162s195 62 195 162z" fill="#d99842"/>
+  <g fill="#f4d68c"><ellipse cx="310" cy="145" rx="8" ry="5"/><ellipse cx="390" cy="120" rx="8" ry="5"/><ellipse cx="475" cy="150" rx="8" ry="5"/><ellipse cx="350" cy="190" rx="8" ry="5"/></g>
+  <path d="M210 250h380l-28 35H235z" fill="#74a447"/><path d="M230 280h340l-22 45H252z" fill="#e7ad37"/><path d="M245 318h310c-5 42-38 55-72 55H317c-34 0-67-13-72-55z" fill="#70402d"/>
+  <path d="M225 370h350c-12 52-50 67-96 67H321c-46 0-84-15-96-67z" fill="#d99842"/>
+  <text x="400" y="480" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">BEEF BURGER</text>
+</svg>

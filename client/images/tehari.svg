@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#e9c69a"/><circle cx="400" cy="260" r="205" fill="#fff8f0"/><circle cx="400" cy="260" r="174" fill="#b87936"/>
+  <path d="M260 225c45-28 64-12 103 20s62 17 91-8 71-25 100 12M260 290c34-25 70-19 105 13s62 15 92-8 65-19 96 6" fill="none" stroke="#f1d391" stroke-width="19" stroke-linecap="round"/>
+  <g fill="#70402a"><ellipse cx="330" cy="190" rx="42" ry="27"/><ellipse cx="472" cy="302" rx="46" ry="26"/><ellipse cx="520" cy="220" rx="32" ry="22"/></g>
+  <g fill="#5b7c37"><path d="M300 170q15-24 30 0-15 24-30 0"/><path d="M480 185q15-24 30 0-15 24-30 0"/></g>
+  <text x="400" y="465" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">BEEF TEHARI</text>
+</svg>

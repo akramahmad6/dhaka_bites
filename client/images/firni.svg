@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ecd8bd"/><path d="M205 190h390l-40 190c-7 32-34 52-67 52H312c-33 0-60-20-67-52z" fill="#bf7653"/>
+  <ellipse cx="400" cy="190" rx="195" ry="50" fill="#fff8f0"/><ellipse cx="400" cy="193" rx="160" ry="32" fill="#f2e4c8"/>
+  <g fill="#63813b"><ellipse cx="360" cy="187" rx="20" ry="7" transform="rotate(30 360 187)"/><ellipse cx="415" cy="177" rx="20" ry="7" transform="rotate(-25 415 177)"/><ellipse cx="450" cy="197" rx="19" ry="7" transform="rotate(25 450 197)"/></g>
+  <g fill="#ad6136"><circle cx="385" cy="201" r="5"/><circle cx="432" cy="185" r="5"/><circle cx="340" cy="190" r="5"/></g>
+  <text x="400" y="465" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">FIRNI</text>
+</svg>

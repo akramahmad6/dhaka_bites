@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#e5c7a0"/><ellipse cx="400" cy="260" rx="250" ry="175" fill="#fff8f0"/>
+  <g transform="rotate(-18 400 255)" fill="#8d4228">
+    <rect x="200" y="185" width="420" height="50" rx="25"/><rect x="205" y="260" width="410" height="50" rx="25"/>
+  </g>
+  <g transform="rotate(-18 400 255)" fill="#d78a49"><path d="M270 187h18v46h-18zm105 0h18v46h-18zm105 0h18v46h-18zm-195 75h18v46h-18zm105 0h18v46h-18zm105 0h18v46h-18z"/></g>
+  <path d="M300 345q35-40 70 0m55 0q35-40 70 0" fill="none" stroke="#68833d" stroke-width="15" stroke-linecap="round"/>
+  <text x="400" y="465" text-anchor="middle" fill="#572e1d" font-family="sans-serif" font-size="30">SEEKH KEBAB</text>
+</svg>

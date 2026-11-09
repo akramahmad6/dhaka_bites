@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Enjoy Dhaka's favorite biryani, kebab, burgers, and more at Dhaka Bites. Fresh food, made with love since 2015."
+    />
+    <title>Dhaka Bites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="logo" href="#home">Dhaka Bites</a>
+      <button
+        class="menu-btn"
+        id="menu-btn"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="nav-links"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Fresh food, made with love</h1>
+          <p>Dhaka's best biryani, kebab and burger, made fresh every day.</p>
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </section>
+
+      <section id="menu" class="section">
+        <h2>Our Menu</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="images/kacchi.svg" alt="Traditional Kacchi Biryani with tender meat and fragrant rice" />
+            <div class="card-content">
+              <h3>Kacchi Biryani</h3>
+              <p>Fragrant basmati rice slow-cooked with tender marinated mutton.</p>
+              <p class="price">BDT 450</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/tehari.svg" alt="A plate of aromatic beef tehari with green chilies" />
+            <div class="card-content">
+              <h3>Beef Tehari</h3>
+              <p>Comforting Dhaka-style rice with flavorful beef and spices.</p>
+              <p class="price">BDT 320</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/roast.svg" alt="Golden chicken roast served with rice" />
+            <div class="card-content">
+              <h3>Chicken Roast</h3>
+              <p>Juicy chicken roasted with a rich, gently spiced sauce.</p>
+              <p class="price">BDT 280</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/kebab.svg" alt="Grilled seekh kebab garnished with herbs" />
+            <div class="card-content">
+              <h3>Seekh Kebab</h3>
+              <p>Smoky, seasoned kebabs grilled fresh and served with chutney.</p>
+              <p class="price">BDT 250</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/burger.svg" alt="Beef burger with lettuce, tomato, and melted cheese" />
+            <div class="card-content">
+              <h3>Beef Burger</h3>
+              <p>A juicy grilled beef patty with crisp vegetables and house sauce.</p>
+              <p class="price">BDT 350</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/firni.svg" alt="Traditional creamy firni dessert sprinkled with pistachios" />
+            <div class="card-content">
+              <h3>Firni</h3>
+              <p>Cool, creamy rice pudding finished with a touch of cardamom.</p>
+              <p class="price">BDT 120</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section alt">
+        <div class="section-inner">
+          <h2>About Us</h2>
+          <p>
+            Since 2015, Dhaka Bites has brought friends and families together
+            over the food we love. We prepare every dish with fresh ingredients,
+            familiar local flavors, and a little extra care.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form" class="form" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send Message</button>
+          <p id="form-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+        <address class="contact-details">
+          <p>12 Food Street, Dhanmondi, Dhaka 1209, Bangladesh</p>
+          <p><a href="tel:+8801700000000">+880 1700-000000</a></p>
+        </address>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Dhaka Bites. Dhaka, Bangladesh.</p>
+      <div class="footer-links">
+        <a href="#contact" aria-label="Portfolio link placeholder">Portfolio</a>
+        <a href="#contact" aria-label="LinkedIn link placeholder">LinkedIn</a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
